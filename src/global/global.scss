@@ -1,0 +1,13 @@
+@for $i from 1 to 10 {
+  .border-#{$i} {
+    border: #{$i}px solid blue;
+  }
+}
+
+@for $i from 1 through 100 {
+  //宽度
+  .w-#{$i} {
+    width: $i;
+  }
+}
+// （through 包含结束值，to不包含结束值）
